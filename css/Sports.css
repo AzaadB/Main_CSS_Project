@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "RobotoItalic";
+  src: url(./fonts/Roboto-Italic.ttf);
+  format: ("truetype");
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url(fonts/Roboto-Regular.ttf);
+  format: ("truetype");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url(fonts/Roboto-Bold.ttf);
+  format: ("truetype");
+}
+@font-face {
+  font-family: "RobotoMedium";
+  src: url(fonts/Roboto-Medium.ttf);
+  format: ("truetype");
+}
+@font-face {
+  font-family: "RobotoLight";
+  src: url(fonts/Roboto-Light.ttf);
+  format: ("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  background-image: url("../images/color-sports.jpg");
+}
+.footer-padding {
+  padding-bottom: 30px;
+}
+h1 {
+  padding: 30px 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.container {
+  margin: 0 10px 0 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border: 3px solid rgb(0, 0, 0);
+}
+.container-background {
+  background-color: rgb(0, 0, 0);
+}
+.info {
+  flex: 1;
+  text-align: center;
+  font-size: medium;
+}
+.info p {
+  margin: 0 40px;
+  padding: 10px;
+  font-size: 1em;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  background-color: #4f5763;
+}
+.Sport-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.img {
+  flex: 1;
+}
+.container-border {
+  margin-bottom: 30px;
+}
+
+.bottom-navigation {
+  padding: 30px;
+  display: flex;
+  text-align: center;
+  font-family: Arial;
+  color: black;
+}
+.bottom-navigation p {
+  flex: 1;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.bottom-navigation a {
+  flex: 1;
+  align-items: center;
+  color: black;
+  font-size: 1.2em;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "RobotoItalic";
+  src: url(./fonts/Roboto-Italic.ttf); format: ("truetype")
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url(fonts/Roboto-Regular.ttf); format: ("truetype");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url(fonts/Roboto-Bold.ttf); format: ("truetype");
+}
+@font-face {
+  font-family: "RobotoMedium";
+  src: url(fonts/Roboto-Medium.ttf); format: ("truetype");
+}
+@font-face {
+  font-family: "RobotoLight";
+  src: url(fonts/Roboto-Light.ttf); format: ("truetype");
+}
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1F2935;
+}
+
+img{
+  width: 460px;    
+  display: flex;
+  float: right;
+  justify-content: right;
+  align-items: right;    
+  background-color: #6D747D;
+}
+
+.nav-bar{
+  padding-top: 20px;    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+}
+.links {
+  padding-right: 210px;
+}
+.links a {
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+  font-family: "RobotoItalic", Arial, sans-serif;
+}
+
+.logo{
+  padding-left: 230px;
+  font-size: 24px;
+  color: #F9FAF8;
+  font-family: "RobotoBold", Arial, sans-serif;
+}
+
+.container-one{
+  padding: 100px 0 120px;    
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.container-one-wrapper{
+  width: 760px;
+}
+
+h1{
+  text-align: left;
+  float: left;
+}
+
+.text{
+    width: 660px;
+    font-size: 15px;
+    color: #E5E7EB;
+    font-family: "RobotoRegular", sans-serif;
+}
+
+.signup-button {
+  margin-top: 10px;
+  padding: 5px 30px;
+  border: none;    
+  border-radius: 7px;
+  font-size: 15px;    
+  color: #F9FAF8;
+  background-color: #3882F6;
+  cursor: pointer;
+  font-family: "RobotoRegular", sans-serif;
+}
+.container{
+  margin-top: 10px;
+  padding: 5px 30px;
+ border-radius: 5px;
+  justify-content: center;
+  background-color: #E5E7EB;
+  color: #000;
+}
+.blockquote-text {
+  padding-top: 8px;
+  font-size: 18px;       
+  color: #1F2937;
+  font-family: "RobotoLightItalic", Arial, sans-serif; 
+}
+
+
+.blockquote-author{
+    padding-right: 5px;  
+    padding-bottom: 5px;
+    margin: 0;
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    font-family: "RobotoBold", sans-serif; 
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 18px;    
+  color: #F9FAF8;
+  background-color: #1F2937;
+  font-family: "RobotoRegular", Arial, sans-serif;
+}
+
